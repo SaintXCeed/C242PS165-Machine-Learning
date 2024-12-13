@@ -20,6 +20,5 @@ This model was built by using a collaborative filtering method and the model cod
 
 ## Exported Model File
 This model was saved:
-- using `tf.keras.Model.save()` at [destinatik_model.h5](https://github.com/destinatik-team/destinatik/blob/ml-path/destinatik_model_v3.h5)
-- using `tf.saved_model()` at [destinatik_model_tfjs](https://github.com/destinatik-team/destinatik/tree/ml-path/destinatik_model_tfjs)
-- and using terminal `!tensorflowjs_converter --input_format=tf_saved_model --output_format=tfjs_graph_model destinatik_model_tfjs ./export_tfjs/` (tensorflowjs converter) [export_tfjs](https://github.com/destinatik-team/destinatik/tree/ml-path/export_tfjs)
+- using `tf.saved_model()` at [SmartFarm_model_tfjs](https://github.com/destinatik-team/destinatik/tree/ml-path/destinatik_model_tfjs)
+- and using terminal `!tensorflowjs_converter --input_format=tf_saved_model --output_format=tfjs_graph_model model_tfjs ./export_tfjs/` (tensorflowjs converter) [SmartFarm_model_tfjs](https://github.com/destinatik-team/destinatik/tree/ml-path/export_tfjs)
